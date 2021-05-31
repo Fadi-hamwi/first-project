@@ -6,10 +6,9 @@ int main(){
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	int ans = 0;
-	for(int i=999; i>=101;--i){
+	for(int i=999; i>=101;--i){ // Try to print the output of the i and j during the excution of the loop to better understand the problem
 		for(int j=i;j >= 101;--j){
 			int product = j*i;
-			//cout << i << " " << j << endl;
 			string original = to_string(product);
 			string reversed = original;
 			reverse(reversed.begin(), reversed.end());
