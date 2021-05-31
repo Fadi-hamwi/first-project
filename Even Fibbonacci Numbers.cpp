@@ -9,7 +9,7 @@ int main(){
 	cin.tie(0);
     
     Fib[1] = 1;
-    for(int i=2; Fib[i-1] < 4000000 ; ++i){
+    for(int i=2; Fib[i-1] < 4000000 ; ++i){ // Common mistake is to put Fib[i] instead of Fib[i-1] this will lead to segment fault(core dumped) 
 		Fib[i]= Fib[i-1] + Fib[i-2];
 	}
 	
