@@ -6,7 +6,7 @@ int getMaxPrimeFactor(long long n) {
       max = 2;
       n = n/2; //reduce n by dividing this by 2
    }
-   for(i = 3; i <= sqrt(n); i=i+2){ //i will increase by 2, to get
+   for(i = 3; i <= sqrt(n); i=i+2){ //i will increase by 2, to get only the odd numbers 
       
       while(n % i == 0) {
          max = i;
