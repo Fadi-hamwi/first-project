@@ -1,0 +1,4 @@
+In this Problem the Logic is very straightforward.
+We just have to calculate the lcm(Least common Multiple) of all numbers from (1...20)
+hint:
+Multiply the prime numbers with each others first and Find the lcm of the rest of numbers.
