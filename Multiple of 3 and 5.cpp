@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-int sum(int n, int a, int b){
+int sum(int n, int a, int b){ // Arthmetic Serial Rule
 	return n * (a+b)/2;
 
 }
