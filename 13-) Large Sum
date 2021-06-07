@@ -1,0 +1,4 @@
+In this problem you need to add the numbers line by line and finally there are too many ways to show the first ten digits like :
+    1-convert it to a string and take the first ten digits 
+    2-compute the length of the number using this method (floor(log10(number)) + 1) or (you can convert to a string and back to a number) 
+    and then divide the number by 10^(length(number) - 10) 
