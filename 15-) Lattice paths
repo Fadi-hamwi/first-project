@@ -1,0 +1,6 @@
+The problem says you can only able to move to the right and down so we need 40 steps to reach the bottom right corner.
+We move 20 steps to right and 20 steps down so using combinatorics (40!/(20!*20!))
+The solution is  137846528820.
+
+
+note: the law we used up there is : n/m*(n-m)
